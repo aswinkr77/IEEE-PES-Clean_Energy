@@ -16,6 +16,8 @@ var swiper = new Swiper('.swiper-container', {
     },
 });
 
+AOS.init();
+
 document.getElementById("toggleButton").addEventListener("click", () => {
     document.getElementById("modal").style.display = "flex";
 });
