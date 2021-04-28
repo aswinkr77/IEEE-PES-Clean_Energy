@@ -12,12 +12,13 @@ html {
 .header-container::before {
     content: '';
     position: absolute;
-    width: 100%;
+    width: 120%;
     height: 100px;
     z-index: 3;
     bottom: -2px;
     left: 0;
-    background-image: linear-gradient(to top,#051428 15%, white 100%);
+    background-image: linear-gradient(to top,#051428 15%, rgba(255, 255, 255, 0.7) 100%);
+    opacity: 0.7;
 }
 
 nav {
