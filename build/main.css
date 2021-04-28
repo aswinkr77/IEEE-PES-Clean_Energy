@@ -526,9 +526,6 @@ ol.gradient-list > li::before {
 
 @media (max-width: 640px) {
     .question-answer {
-        /*-webkit-box-shadow: 10px 10px 8px -4px rgba(2,218,197,0.8);
-        -moz-box-shadow: 10px 10px 8px -4px rgba(2,218,197,0.8);
-        box-shadow: 10px 10px 8px -4px rgba(2,218,197,0.8);*/
         border: 2px solid #02dac5;
     }
 
