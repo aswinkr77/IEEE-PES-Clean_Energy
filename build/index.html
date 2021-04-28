@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean Energy</title>
+    <link rel="icon" href="../images/wind-power.svg" type="image/icon">
+
+    <!--Tailwind CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="main.css"> 
+
+    <!--Swiper JS CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body class="h-full relative">
+    
+    <div class="swiper-container h-full header-container bg-white">
+
+      <nav class="nav-bar bg-white flex w-11/12 items-center justify-end md:justify-start">
+        <div class="logos flex w-4/12 md:w-9/12 items-center md:justify-self-start">
+          <a href="https://www.ieee.org/" target="_blank"><img src="../images/ieee-logo.png" alt="" class="img-1"></a>
+          <a href="https://www.ieee-pes.org/" target="_blank"><img src="../images/ieee pes.png" alt="" class="img-2"></a>
+          <a href="https://pes.ieeekerala.org/" target="_blank"><img src="../images/ieee-pes-kerala.png" alt="" class="img-3"></a>
+        </div>
+
+        <ul class="menus flex w-8/12 justify-end text-xl md:hidden">
+          <li class="mx-1 py-2 px-4 relative"><a href="./index.html">Home</a></li>
+          <li class="mx-1 py-2 px-4 relative"><a href="#main-sources">Sources</a></li>
+          <li class="mx-1 py-2 px-4 relative"><a href="#general-questions">Questions</a></li>
+          <li class="mx-1 py-2 px-4 relative"><a href="#how">Become a Part</a></li>
+        </ul>
+
+        <div id="button-container" class="hidden relative md:w-3/12 justify-end md:flex">
+          <div id="toggleButton" class="toggle relative md:justify-self-end block cursor-pointer">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <div id="modal" class="hidden flex w-full h-full fixed">
+          <div class="modal-background w-full h-full absolute flex items-center">
+            <div id="modal-menu-container" class="modal-menu-contain relative w-10/12 h-auto rounded-lg">
+              <div id="close" class="close absolute cursor-pointer block">
+                <span></span>
+                <span></span>
+              </div>
+              <div class="modal-menu flex flex-col items-center justify-center text-2xl my-16">
+                <a class="p-3" href="./index.html">Home</a>
+                <a class="p-3" href="#main-sources">Sources</a>
+                <a class="p-3" href="#general-questions">Questions</a>
+                <a class="p-3" href="#how">Become a Part</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="swiper-wrapper h-full">
+        <div class="swiper-slide slide1 h-full bg-cover bg-center"></div>
+        <div class="swiper-slide slide2 h-full bg-cover bg-center"></div>
+        <div class="swiper-slide slide3 h-full bg-cover bg-center"></div>
+      </div>
+        <!-- Add Pagination
+        <div class="swiper-pagination"></div>
+         Add Arrows
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>-->
+
+      <div class="absolute z-10 header-head w-full">
+        <div class="p-4 sm:p-4 sm:pb-0 md:px-5 md:pb-2 text-5xl md:text-4xl sm:text-3xl font-mono leading-normal md:leading-relaxed sm:leading-relaxed font-black">
+          <p class="lead-text">Conserve <span class="text-white energy">Energy</span><br> To Preserve <span class="bg-blue-500 text-white">Future</span></p>
+        </div>
+        <p class="p-4 pb-2 sm:p-4 sm:pb-2 md:pt-0 md:px-5 md:pb-5 w-6/12 lg:w-9/12 md:w-full text-3xl md:text-2xl sm:text-xl font-semibold lead-para">
+          <em>&ldquo;The choice before us is simple. Will we continue to subsidize the dirty fossil fuels of the past, or will we transition to 21st century clean, renewable energy?&rdquo;</em>
+          <p class="author relative p-4 pt-0 sm:p-4 sm:pt-0 md:pt-0 md:px-5 md:pb-5 w-6/12 lg:w-9/12 md:w-full text-3xl md:text-2xl sm:text-xl font-semibold lead-para">
+            - Elizabeth Warren
+          </p>
+        </p>
+      </div>
+    </div>
+
+    <div id="clean-energy" class="flex pt-10 md:pt-0 items-center justify-center text-center w-10/12 md:w-full relative left-1/2 mb-24 mt-24 md:mt-10 lg:flex-wrap">
+      <div class="w-6/12 lg:w-10/12 md:w-11/12 lg:mb-10">
+        <h1 class="clean-revo text-5xl md:text-4xl leading-normal md:leading-relaxed font-semibold">What is <br><span class="bg-blue-500 text-white">Clean</span> <span class="text-white">Energy</span><br><span class="bg-red-500 text-white">Revolution?</span></h1>
+      </div>
+      <div class="w-6/12 lg:w-10/12 md:w-11/12 text-justify p-10 md:p-4 text-2xl md:text-xl sm:text-lg what-clean rounded-lg">
+        <p>With climate change threatening to spiral out of control, the time has come to accelerate our transition from oil, coal and gas to alternative energy sources.
+          The alternative sources like wind, water, etc. are termed as Clean Energy sources. And now the clean energy industry generates hundreds of billions in economic 
+          activity, and is expected to continue to grow rapidly in the coming years. There is tremendous economic opportunity for the countries that invent, manufacture and export clean energy technologies.
+          This is now termed as Clean Energy Revolution.
+        </p>
+      </div>
+    </div>
+
+    <div id="main-sources" class="w-full relative mt-14">
+      <h1 class="w-full text-center w-full md:w-10/12 text-5xl md:text-4xl p-4 font-medium md:leading-relaxed"><span class="bg-blue-500">Clean</span> <span>Energy</span> Sources</h1>
+      <div class="flex items-center justify-center w-full flex-wrap sources">
+        <div class="w-2/5 md:w-10/12 sm:w-11/12 p-4 text-justify rounded-lg bg-yellow-200">
+          <h3 class="text-2xl pb-2 font-medium">Solar Energy</h3>
+          <p class="text-lg">Sunlight is one of our planet’s most abundant and freely available energy resources. The amount of solar energy that reaches the earth’s surface in one hour is more than the planet’s total energy requirements for a whole year. 
+            Although it sounds like a perfect renewable energy source, the amount of solar energy we can use varies according to the time of day and the season of the year as well as geographical location.</p>
+        </div>
+        <div class="w-2/5 md:w-10/12 sm:w-11/12 p-4 text-justify rounded-lg bg-green-400">
+          <h3 class="text-2xl pb-2 font-medium">Wind Energy</h3>
+          <p class="text-lg">Sunlight is one of our planet’s most abundant and freely available energy resources. The amount of solar energy that reaches the earth’s surface in one hour is more than the planet’s total energy requirements for a whole year. 
+            Although it sounds like a perfect renewable energy source, the amount of solar energy we can use varies according to the time of day and the season of the year as well as geographical location.</p>
+        </div>
+        <div class="w-2/5 md:w-10/12 sm:w-11/12 p-4 text-justify rounded-lg">
+          <h3 class="text-2xl pb-2 font-medium">Hydro Energy</h3>
+          <p class="text-lg">Sunlight is one of our planet’s most abundant and freely available energy resources. The amount of solar energy that reaches the earth’s surface in one hour is more than the planet’s total energy requirements for a whole year. 
+            Although it sounds like a perfect renewable energy source, the amount of solar energy we can use varies according to the time of day and the season of the year as well as geographical location.</p>
+        </div>
+        <div class="w-2/5 md:w-10/12 sm:w-11/12 p-4 text-justify rounded-lg">
+          <h3 class="text-2xl pb-2 font-medium">Tidal Energy</h3>
+          <p class="text-lg">Sunlight is one of our planet’s most abundant and freely available energy resources. The amount of solar energy that reaches the earth’s surface in one hour is more than the planet’s total energy requirements for a whole year. 
+            Although it sounds like a perfect renewable energy source, the amount of solar energy we can use varies according to the time of day and the season of the year as well as geographical location.</p>
+        </div>
+        <div class="w-2/5 md:w-10/12 sm:w-11/12 p-4 text-justify rounded-lg">
+          <h3 class="text-2xl pb-2 font-medium">Geothermal Energy</h3>
+          <p class="text-lg">Sunlight is one of our planet’s most abundant and freely available energy resources. The amount of solar energy that reaches the earth’s surface in one hour is more than the planet’s total energy requirements for a whole year. 
+            Although it sounds like a perfect renewable energy source, the amount of solar energy we can use varies according to the time of day and the season of the year as well as geographical location.</p>
+        </div>
+        <div class="w-2/5 md:w-10/12 sm:w-11/12 p-4 text-justify rounded-lg">
+          <h3 class="text-2xl pb-2 font-medium">Biomass Energy</h3>
+          <p class="text-lg">Sunlight is one of our planet’s most abundant and freely available energy resources. The amount of solar energy that reaches the earth’s surface in one hour is more than the planet’s total energy requirements for a whole year. 
+            Although it sounds like a perfect renewable energy source, the amount of solar energy we can use varies according to the time of day and the season of the year as well as geographical location.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="general-questions" class="w-full top-24 mt-10 relative">
+      <h1 class="w-full text-center text-5xl md:text-4xl z-10 mb-10 font-medium md:leading-relaxed">General Questions on <span class="bg-blue-500">Clean</span> <span>Energy</span></h1>
+      <div class="w-11/12 timeline-clean relative">
+        <div class="flex items-center justify-center w-full flex-wrap timeline-child relative">
+          <div class="w-3/6 md:w-2/6 sm:w-full q-div relative">
+            <h1 class="text-center text-3xl md:text-2xl p-4 text-white clean-question">How Does it Work?</h1>
+          </div>
+          <div class="w-3/6 md:w-4/6 sm:w-full question-answer relative sm:rounded-lg">
+            <p class="text-justify p-12 sm:p-4 text-xl sm:text-lg">Clean energy works by producing power without having negative environmental impacts, such as the release of greenhouse gases like carbon dioxide. A lot of clean energy is also renewable, including wind power, some hydro resources and solar powered energy generation.</p>
+          </div>
+        </div>
+        <div class="flex sm:flex-col-reverse items-center justify-center w-full flex-wrap timeline-child relative sm:mt-10">
+          <div class="w-3/6 md:w-4/6 sm:w-full question-answer relative sm:rounded-lg">
+            <p class="text-justify p-12 sm:p-4 text-xl sm:text-lg">The most important aspect of clean energy are the environmental benefits as part of a global energy future. While clean, renewable resources also preserve the world’s natural resources, they also reduce the risk of environmental disasters, such as fuel spills or the 
+              problems associated with natural gas leaks.  With fuel diversification, through different power plants using different energy sources, it is possible to create reliable power supplies to enhance energy security, ensuring there is enough to meet our demands.</p>
+          </div>
+          <div class="w-3/6 md:w-2/6 sm:w-full q-div relative">
+            <h1 class="text-center text-3xl md:text-2xl p-4 text-white clean-question">Why is it Important?</h1>
+          </div>
+        </div>
+        <div class="flex items-center justify-center w-full flex-wrap timeline-child relative sm:mt-10">
+          <div class="w-3/6 md:w-2/6 sm:w-full q-div relative">
+            <h1 class="text-center text-3xl md:text-2xl p-4 text-white clean-question">Benefits</h1>
+          </div>
+          <div class="w-3/6 md:w-4/6 sm:w-full question-answer relative sm:rounded-lg">
+            <p class="text-justify p-12 sm:p-4 text-xl sm:text-lg">Clean energy provides a variety of environmental and economic benefits, including a reduction in air pollution. A diverse clean energy supply also reduces the dependence on imported fuels (and the associated financial and environmental costs this incurs).
+              Renewable clean energy also has inherent cost savings, as there is no need to extract and transport fuels, such as with oil or coal, as the resources replenish themselves naturally.         
+              Other industrial benefits of a clean energy mix is the creation of jobs to develop, manufacture and install the clean energy resources of the future.</p>
+          </div>
+        </div>
+        <div class="flex sm:flex-col-reverse items-center justify-center w-full flex-wrap timeline-child relative sm:mt-10">
+          <div class="w-3/6 md:w-4/6 sm:w-full question-answer relative sm:rounded-lg">
+            <p class="text-justify p-12 sm:p-4 text-xl sm:text-lg">Clean energy can be used for a variety of different applications, from electricity generation to heating water and more, depending on the source of the energy.
+              For example, Solar energy can be used for heating and lighting buildings, generating electricity, heating water directly, cooling and more. Solar panels allow for energy from the sun to be collected and turned into electricity. Solar panels are frequently used for small electric tasks,
+              such as charging batteries, while many people already use solar energy for small garden lanterns. However, this same clean energy technology can be scaled up to larger panels that are used to provide power for homes or other buildings or even installations of multiple solar panels, such as with a community solar panel array to power entire towns.</p>
+          </div>
+          <div class="w-3/6 md:w-2/6 sm:w-full q-div relative">
+            <h1 class="text-center text-3xl md:text-2xl p-4 text-white clean-question">How Can Clean Energy Be Used?</h1>
+          </div>
+        </div>
+        <div class="flex items-center justify-center w-full flex-wrap timeline-child relative sm:mt-10">
+          <div class="w-3/6 md:w-2/6 sm:w-full q-div relative">
+            <h1 class="text-center text-3xl md:text-2xl p-4 text-white clean-question">The Future of Clean Energy</h1>
+          </div>
+          <div class="w-3/6 md:w-4/6 sm:w-full question-answer relative sm:rounded-lg">
+            <p class="text-justify p-12 sm:p-4 text-xl sm:text-lg">The future of clean energy looks bright, with recent years showing that more renewable energy capacity has been installed globally than new fossil fuel and nuclear capacity combined. Renewable sources now make up over one-third of globally installed power capacity.
+              As the world population continues to grow, there is an ever-increasing demand for energy and renewable sources are the answer to providing sustainable energy solutions, while also protecting the planet from climate change.
+            </p>
+          </div>
+        </div>
+        <div class="flex sm:flex-col-reverse items-center justify-center w-full flex-wrap timeline-child relative sm:mt-10">
+          <div class="w-3/6 md:w-4/6 sm:w-full question-answer relative sm:rounded-lg">
+            <p class="text-justify p-12 sm:p-4 text-xl sm:text-lg">
+              Humans have been using fossil fuels for over 150 years and, as their use increased, so did the release of the greenhouse gases that are produced when these fuels are burned. These greenhouse gases trap heat in the atmosphere causing the temperature of the Earth to rise. This global warming is one symptom of climate change that has seen a rise in extreme weather 
+              events, shifting wildlife habitats and populations, rising sea levels and other impacts.
+              Because renewable energy sources don’t emit greenhouse gases such as carbon dioxide, they do not contribute to global warming. These renewable sources mean that climate change is not being advanced, while measures such as reforestation can help to alleviate the damage already done to the climate, combining to reduce global warming.
+            </p>
+          </div>
+          <div class="w-3/6 md:w-2/6 sm:w-full q-div relative">
+            <h1 class="text-center text-3xl md:text-2xl p-4 text-white clean-question">How Can Clean Energy Reduce Global Warming?</h1>
+          </div>
+        </div>
+        <div class="flex items-center justify-center w-full flex-wrap timeline-child relative sm:mt-10">
+          <div class="w-3/6 md:w-2/6 sm:w-full q-div relative">
+            <h1 class="text-center text-3xl md:text-2xl p-4 text-white clean-question">Can Clean Energy Replace Fossil Fuels?</h1>
+          </div>
+          <div class="w-3/6 md:w-4/6 sm:w-full question-answer relative sm:rounded-lg">
+            <p class="text-justify p-12 sm:p-4 text-xl sm:text-lg">
+              As mentioned above, humans have been using fossil fuels for decades, meaning that the switch to clean energy has been relatively recent. As a result, renewable energy sources are still seen as being unpredictable and do not yet meet our global power demands. This means that renewable energy is still being topped up with carbon-based energy sources.
+              However, it is believed that our energy needs can be balanced by the efficient storing of renewable energy so it can be used when the demand is present. A great deal of work is being done to improve the infrastructure and storage capabilities of clean energy, with experts saying that clean renewable energy could replace fossil fuels by 2050
+            </p>
+          </div>
+        </div>
+        <div class="flex sm:flex-col-reverse items-center justify-center w-full flex-wrap timeline-child relative sm:mt-10">
+          <div class="w-3/6 md:w-4/6 sm:w-full question-answer relative sm:rounded-lg">
+            <p class="text-justify p-12 sm:p-4 text-xl sm:text-lg">
+              There are financial benefits related to clean energy, not least due to the creation of work to improve the infrastructure, manufacture clean energy solutions and install and maintain them. Renewable and clean energy are growth sectors as the world begins to move away from fossil fuels, meaning that more opportunities will arise in areas ranging from 
+              eMobility to power generation and storage.
+              The expertise that comes with developing these next generation power solutions can be of benefit of those that attain it, offering work and contracts to those who are slow to take up clean energy.
+            </p>
+          </div>
+          <div class="w-3/6 md:w-2/6 sm:w-full q-div relative">
+            <h1 class="text-center text-3xl md:text-2xl p-4 text-white clean-question">How Will Clean Energy Help Our Economy?</h1>
+          </div>
+        </div>
+        <div class="flex items-center justify-center w-full flex-wrap timeline-child relative sm:mt-10">
+          <div class="w-3/6 md:w-2/6 sm:w-full q-div relative">
+            <h1 class="text-center text-3xl md:text-2xl p-4 text-white clean-question">Is Clean Energy Really Clean?</h1>
+          </div>
+          <div class="w-3/6 md:w-4/6 sm:w-full question-answer relative sm:rounded-lg">
+            <p class="text-justify p-12 sm:p-4 text-xl sm:text-lg">
+              All clean energy sources are, by definition ‘clean,’ however not all renewable energy sources are clean. For example, burning wood from sustainably managed forests can be renewable, but it is not clean since this releases carbon dioxide into the atmosphere.
+              To be truly clean the carbon cost of production and storage needs to be zero, and this is where sources such as solar power and wind energy are seen as being truly clean and renewable.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="how" class="top-40 mt-10 relative">
+      <div class="list-main">
+        <h1 class="text-5xl md:text-4xl text-center text-white font-medium leading-normal md:leading-relaxed">How Can You Be a Part of This <span class="bg-red-500">Revolution?</span></h1>
+        <ol class="gradient-list text-xl">
+          <li>Embrace Solar-Powered Technologies</li>
+          <li>Crowdfund Clean Energy Projects</li>
+          <li>Support the Society of Concerned Scientist</li>
+          <li>Use Water-processing Technology</li>
+          <li>Wind Power for Home or Business</li>
+        </ol>
+      </div>
+    </div>
+
+    <div id="earth" class="top-52 relative w-full h-36">
+      <h1 class="text-center text-4xl text-white font-bold">Go <span class="bg-blue-500">Clean</span> Save <span>Earth</span></h1>
+    </div>
+
+  </div>
+
+
+    <!--Scripts-->
+
+    <!--Swiper JS-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!--Custom JS-->
+    <script src="./main.js"></script>
+    
+</body>
+</html>
